@@ -1,0 +1,3 @@
+# List of Basic Evaluations
+
+This will be a list of evaluations for the ability of AI to create and manipulate basic Python programs, involving operations, loops, functions, data types, and debugging programs involving the above. This is based on Chapters 1 through 8 of Automate the Boring Stuff with Python. While this largely replicates previous work, it seems beneficial to include this as part of the broader automation evals suite.
