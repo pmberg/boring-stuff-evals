@@ -1,0 +1,5 @@
+# My Thoughts on Searchability
+
+Much work within AI evals has been done on preventing an Internet search from returning answers to the problems. While some basic-level work will be done along those lines in this case (e.g. changing the stated values in a problem), this is inherently limited given that these problems are derived from a notable book published under a Creative Commons license. 
+
+However, the philosophy of this package is that it is not intended to test the theoretical capability of an AI system in some sense where it is being compared to a person without Internet access. Rather, it is designed to measure capability on real-world tasks performed by non-programmers or novice programmers, and in the real world, a person would have Internet access. As such, effective use and compilation of available Internet resources is part of what is being evaluated here. Additionally, note that in practice, many real-world problems are very capable of being Internet searched for solutions, and "Google fu" is a real skill that an AI could assist a person with.

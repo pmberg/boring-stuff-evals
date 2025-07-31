@@ -2,8 +2,6 @@
 
 Development for this project is based on the book "Automate the Boring Stuff with Python" by Al Sweigart. Many of the tests will be based on worked examples and exercises in the book. However, modifications will be made to prevent a direct Internet search from being able to return answers.
 
-Note that in practice, many real-world problems are very capable of being Internet searched, and so there has been no significant attempt to make significant parts of the answers unsearchable.
-
 # Topics for Evaluations
 
 ## Basics
