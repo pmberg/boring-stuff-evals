@@ -16,6 +16,14 @@ Tasks involving the use of regular expressions (regexes) to accomplish goals of 
 
 Tasks based on reading and writing large numbers of files using Python libraries, using libraries to handle paths as well as reading/writing libraries.
 
+## File Organization
+
+Tasks involving organizing large numbers of files within a computer's file system.
+
 ## More
 
-Based on Chapters 11 and onwards of Automate the Boring Stuff.
+Based on Chapters 12 and onwards of Automate the Boring Stuff.
+
+# Possible approach for evaluations
+
+These evaluations are fairly sensitive from a security standpoint, especially given that many require Internet access or file manipulation. Here this will involve scoping each task 
