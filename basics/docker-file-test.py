@@ -9,6 +9,5 @@ def factorial(n):
     else:
         return factorial(n-1)*n
 
-if __name__ == "__main__":
-    in_num = 6
-    print(factorial(int(in_num)))
+in_num = 6
+print(factorial(int(in_num)))
