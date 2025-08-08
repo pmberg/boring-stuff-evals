@@ -1,6 +1,6 @@
 #Sets a parameter, including a default value if the second argument is omitted
 param (
-    [string]$FilePath = "basics/docker-file-test.py"
+    [string]$FilePath = "basics/docker_file_test.py"
 )
 
 # Convert relative path to full path (Docker requires absolute)
