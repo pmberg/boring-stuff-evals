@@ -7,4 +7,13 @@ RUN pip install numpy pytest
 # Create a working directory
 WORKDIR /code
 
-#Build it with docker build -t python-eval-1 .
+#Takes existing files and puts them in the image
+COPY . /code/
+
+#Defines default commands to quietly run all the tests
+CMD ["python", "-m", "pytest", "-q"]
+
+#Build it with docker build -t python-eval-2.
+#And then run with docker run --rm python-eval-2.
+#Or, more specifically, something like docker run --rm python-eval-2 python -m pytest basics/ or whatever
+#specific directory.
