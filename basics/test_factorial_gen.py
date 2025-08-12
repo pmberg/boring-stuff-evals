@@ -13,7 +13,7 @@ def generated_factorial_module():
     """Runs factorial_gen.py and imports the generated factorial.py."""
     # Ensure we’re in the right directory
     base_dir = pathlib.Path(__file__).parent.resolve()
-    common_dir = base_dir.parent.parent / "common" # Locate the correct directory for testing_code_gen.py
+    common_dir = base_dir.parent / "common" # Locate the correct directory for testing_code_gen.py
     
     if str(common_dir) not in sys.path:
         sys.path.insert(0, str(common_dir))
